@@ -1,32 +1,18 @@
-=========
+===========
 mclbn256.py
-=========
-
-Python library that serves as an API for common cryptographic primitives used to implement OPRF, OT, and PSI protocols.
+===========
 
 Python library that serves as an API for the BN254/256 pairing-friendly curve functions implemented in [MCl](https://github.com/herumi/mcl) in C.
 
-|pypi| |readthedocs| |actions| |coveralls|
+|pypi|
 
-mclbn256.py.svg
-   mclbn256.py
+mclbn254.svg
+   mclbn254.py
    :alt: PyPI version and link.
-
-mclbn256.py/badge/?version=latest
-   mclbn256.py.readthedocs.io/en/latest/?badge=latest
-   :alt: Read the Docs documentation status.
-
-mclbn256.py/workflows/lint-test-cover-docs/badge.svg
-   mclbn256.py/actions/workflows/lint-test-cover-docs.yml
-   :alt: GitHub Actions status.
-
-mclbn256.py/badge.svg?branch=main
-   mclbn256.py?branch=main
-   :alt: Coveralls test coverage summary.
 
 Package Installation and Usage
 ------------------------------
-The package is available on `PyPI <https://pypi.org/project/mclbn256/>`_::
+The package is available on `PyPI <https://pypi.org/project/mclbn254/>`_::
 
     mclbn256.py
 
@@ -102,3 +88,8 @@ Next, install the `twine <https://pypi.org/project/twine/>`_ package and upload 
 
     python -m pip install twine
     python -m twine upload dist/*
+
+Notes
+-----
+
+BN-256 was an old name for the Barreto–Naehrig(2,254) Weierstrass curve, when it was though to have close to 256 bits of security.  It has since been estimated to have at least 90 bits of security (compared to symmetric ciphers) and is now more commonly refered to by BN254, after the number of bits in its prime modulus.  Specifically, `mclbn254` is the name of the subset of the MCl library containing the support for this curve.
