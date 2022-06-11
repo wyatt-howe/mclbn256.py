@@ -89,6 +89,6 @@ BN-256 was an old name for the Barreto–Naehrig(2,254) Weierstrass curve,
 when it was though to have close to 256 bits of security. It has since
 been estimated to have at least 90 bits of security (compared to
 symmetric ciphers) and is now more commonly refered to by BN254, after
-the number of bits in its prime modulus. Specifically, mclbn254 is the
-name of the subset of the MCl library containing the support for this
+the number of bits in its prime modulus. Specifically, :code:`mclbn256` is the
+`name <https://github.com/herumi/mcl/blob/master/Makefile#L49>`__ of the subset of the MCl library containing the support for this
 curve.
