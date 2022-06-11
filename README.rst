@@ -46,7 +46,7 @@ This library supports concise construction of elliptic curve points
    >>> ((p * s) @ (q * t)) == (p @ (q * s * t))
    True
    >>> ((p * s * ~t) @ (q * t)) == (p @ (q * s))
-   False
+   True
    >>> ((p * s) @ q) == ((p * ~t) @ (q * s * t))
    True
 
