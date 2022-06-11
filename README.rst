@@ -5,8 +5,9 @@ Python library that serves as an API for the BN254/256 pairing-friendly
 curve functions implemented in `MCl <https://github.com/herumi/mcl>`__
 in C.
 
-mclbn254.svg
-   mclbn254.py :alt: PyPI version and link.
+.. image:: https://badge.fury.io/py/mclbn256.svg
+    :target: https://badge.fury.io/py/mclbn256
+    :alt: PyPI version and link.
 
 Package Installation and Usage
 ------------------------------
@@ -81,8 +82,8 @@ and the changes to the library associated with version number increments
 conform with `Semantic Versioning
 2.0.0 <https://semver.org/#semantic-versioning-200>`__.
 
-Notes
------
+Naming Notes
+------------
 
 BN-256 was an old name for the Barreto–Naehrig(2,254) Weierstrass curve,
 when it was though to have close to 256 bits of security. It has since
