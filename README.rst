@@ -2,7 +2,7 @@ mclbn256.py
 ===========
 
 Python library that serves as an API for the BN254/256 pairing-friendly
-curve functions implemented in `MCl <https://github.com/herumi/mcl>`__
+curve implemented in `MCl <https://github.com/herumi/mcl>`__
 in C.
 
 .. image:: https://badge.fury.io/py/mclbn256.svg
