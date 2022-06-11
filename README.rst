@@ -16,15 +16,14 @@ The package is available on
 
 ::
 
-   mclbn256.py
+   pip install mclbn256
 
 The library can be imported in the usual ways:
 
 ::
 
-   mclbn256.py
-   mclbn256.py import ristretto
-   mclbn256.py import bn254
+   import mclbn256  # All required data structures
+   from mclbn256 import mclbn256  # Extended attributes, internals, classes, test methods
 
 Examples
 ~~~~~~~~
