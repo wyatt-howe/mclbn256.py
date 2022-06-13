@@ -1,4 +1,4 @@
-mclbn256.py [see `_nthparty/mclbn256 <https://github.com/nthparty/mclbn256>`__]
+mclbn256.py [see `nthparty/mclbn256 <https://github.com/nthparty/mclbn256>`__]
 ===========
 
 Python library that serves as an API for the BN254/256 pairing-friendly
